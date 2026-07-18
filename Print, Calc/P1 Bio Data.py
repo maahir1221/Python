@@ -1,0 +1,13 @@
+print("\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBIO DATA")
+print("\n\nName: Maahir Bhavsar", "\t\t\t\t\t\t\t\tGender: Male")
+print("Date of Birth: 21-03-2008", "\t\t\t\t\t\t\tAge:18")
+print("Address: Anand Sapphire, Gota, Ahmedabad", "\t\t\tState: Gujrat")
+print("\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEDUCATIONAL QUALIFICATION")
+print("\nSubject\t\t\t\t\t", "Marks Obtained")
+print("\nPhysics\t\t\t\t\t\t", "82")
+print("Chemistry\t\t\t\t\t", "96")
+print("Msths\t\t\t\t\t\t", "80")
+print("English\t\t\t\t\t\t", "82")
+print("Painting\t\t\t\t\t", "100")
+a, b, c, d, e, f = 82, 96, 80, 82, 100, 82+96+80+82+100
+print("\n\nTotal\t\t\t\t\t\t", f)
