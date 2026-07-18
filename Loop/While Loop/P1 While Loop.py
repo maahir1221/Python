@@ -98,8 +98,28 @@ print("Factorial is:", x)
 #     i+=1
 
 
-n=int(input("Enter Number: "))
-d=n%10
-rev=1
-rev=rev*10+d
-n=n//10
+# num = int(input("Enter a number: "))
+# temp = num
+# reverse = 0
+#
+# while num > 0:
+#     digit = num % 10
+#     reverse = reverse * 10 + digit
+#     num = num // 10
+#
+# if temp == reverse:
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")
+
+
+num = int(input("Enter a number: "))
+temp = num
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+print(reverse)
