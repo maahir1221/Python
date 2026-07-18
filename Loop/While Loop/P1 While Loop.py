@@ -69,6 +69,16 @@ print("Factorial is:", x)
 # a = int(input("Enter Number: "))
 # i = 1
 # x = 1
+# while i <= a:
+#
+#     x = x * i
+#     i += 1
+# print("Factorial is:", x)
+
+
+# a = int(input("Enter Number: "))
+# i = 1
+# x = 1
 # while i<=10 :
 #     x=a*i
 #     i+=1
