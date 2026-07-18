@@ -73,3 +73,23 @@ print("Factorial is:", x)
 #     x=a*i
 #     i+=1
 #     print(a,"x",i-1,"=",x)
+
+
+# n=int(input("Enter a number: "))
+# a=0
+# b=1
+# i=0
+#
+# while i<n:
+#     print(a, end=" ")
+#     c=a+b
+#     a=b
+#     b=c
+#     i+=1
+
+
+n=int(input("Enter Number: "))
+d=n%10
+rev=1
+rev=rev*10+d
+n=n//10
