@@ -56,16 +56,6 @@
 # print("sum is :",sum)
 
 
-a = int(input("Enter Number: "))
-i = 1
-x = 1
-while i <= a:
-
-    x = x * i
-    i += 1
-print("Factorial is:", x)
-
-#
 # a = int(input("Enter Number: "))
 # i = 1
 # x = 1
