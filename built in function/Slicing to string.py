@@ -1,0 +1,11 @@
+s="Heyram said:Qualtiy is show our silent personality"
+print("The first five Character are:",s[:5])
+print("THe next five character are:",s[5:10])
+print("The thirteenth character is:",s[12])
+print("The character with odd index are:", s[1::2])
+print("The characters with even index are:", s[::2])
+print("The last five characters are:", s[-5:])
+print("The last next five characters are:", s[-10:-5])
+print("Uppercase string is:", s.upper())
+print("Lowercase string is:", s.lower())
+print("Capitalise string is:", s.capitalize())
