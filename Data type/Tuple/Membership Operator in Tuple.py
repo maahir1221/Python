@@ -1,0 +1,5 @@
+tup1=('Doom', 'Maahir', 'Daksh', 'Mihir')
+tup2=(1, 2, 3, 4, 5, 6, 7, 6, 4, 3, 1)
+print("Is Doom in Tuple(1)", 'Doom' in tup1)
+print("Is Kaju in Tuple(2)", 'Kaju' not in tup1)
+print("Is 5 in Tuple2", 5 in tup2)
