@@ -1,0 +1,8 @@
+a=('Raju', 'Baju', 'Kaju', 'Laju')
+b=(1, 2, 3, 4, 5, 6, 7, 6, 4, 3, 1)
+print(a)
+print(b)
+print("tup[0]:", a[0])
+print("tup1[:4]:", a[:3])
+print("tup1[-3:-1]:", a[-3:-1])
+print("tup2[-1]:", b[-1:])
