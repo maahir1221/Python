@@ -13,5 +13,3 @@ print("Set comprehension:")
 t = [1, 4, 2, 4, 1, 2, 3]
 s = {i for i in t}
 print(s)
-
-# 1-6, 8,9, 12-14
