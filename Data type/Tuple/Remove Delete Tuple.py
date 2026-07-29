@@ -1,0 +1,6 @@
+a=('Apple', 'Banana', 'Cherry')
+print(a)
+y= list(a)
+y.remove('Cherry')
+a=tuple(y)
+print("After removing 'Cherry' from the list:", a)
