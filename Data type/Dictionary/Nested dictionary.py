@@ -4,8 +4,8 @@ family={
 }
 print(family)
 
-# printing separately:
-for key, value in family.items():
-    print(key)
-    for k,v in value.items():
-        print(k,":", v)
+# # printing separately:
+# for key, value in family.items():
+#     print(key)
+#     for k,v in value.items():
+#         print(k,":", v)
