@@ -1,0 +1,6 @@
+f=open("Maahir details.txt", 'a')
+f.write("\nI am an optimistic enthusiast coder")
+f = open("Maahir details.txt")
+x = f.read()
+print(x)
+f.close()
