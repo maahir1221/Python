@@ -20,4 +20,4 @@ print(data)
 # 6. a+ is for read, write and append
 
 # variable.write is a place where you will type in what you want in the text file
-# varible.close() is necessary whenever the file is open.
+# varible.close() is necessary whenever the file is open in order to close it and ensuring that you have finalized the edits.

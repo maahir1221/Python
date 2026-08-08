@@ -1,0 +1,3 @@
+This is a detail page about Maahir Bhavsar.
+Currently Maahir is learning Python.
+In this course he will learn about core python, advanced python and ai.

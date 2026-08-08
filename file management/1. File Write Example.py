@@ -1,0 +1,8 @@
+f=open('Maahir details.txt', 'w')
+f.write("This is a detail page about Maahir Bhavsar.")
+f.write("\nCurrently Maahir is learning Python.")
+f.write("\nIn this course he will learn about core python, advanced python and ai.")
+f.close()
+f=open("Maahir details.txt", 'r')
+data=f.read()
+print(data)
