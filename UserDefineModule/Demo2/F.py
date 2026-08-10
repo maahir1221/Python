@@ -9,4 +9,4 @@ from UserDefineModule.Demo2.Logic import *
 # if instead of importing all any specific file is required, than we can just type variable instead of *
 # The main purpose to import both file to F is:
 # 1. I can run the files simultaneously by running F file itself
-# 2. I don't require to run them individually
+# 2. It is not required to run them individually
