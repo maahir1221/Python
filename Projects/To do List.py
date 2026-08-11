@@ -11,26 +11,51 @@ while True:
     print("2. remove")
     print("3. Show")
     print("4. Exit")
+    try:
+        ch=int(input("Enter Your Choice (1-4): "))
 
-    ch=int(input("Enter Your Choice (1-4): "))
+        if ch==1:
+            task=input("Enter task to add:\n")
+            l.append(task)
+            print("Your TO DO LIST is updated successfully")
 
-    if ch==1:
-        task=input("Enter task to add")
-        l.append(task)
-        print("Your TO DO LIST is updated successfully")
+        elif ch==2:
+            if not l:
+                print("No task to remove!")
+            else:
+                print("\nYour TO DO LIST:")
+                for i, task in enumerate(l, start=1):
+                    print(f"{i}. {task}")
 
-    if ch==2:
-        for i in l:
-           print(i)
-        task=input("Enter task to remove")
-        if l==[]:
-            print("No task to remove!")
+                try:
+                    num = int(input("Enter the number of the task to remove: "))
+                    if 1 <= num <= len(l):
+                        removed_task = l.pop(num - 1)
+                        print(f"Task '{removed_task}' removed successfully!")
+                    else:
+                        print("Invalid number! Please select a valid task number.")
+                except ValueError:
+                    print("Please enter a valid number.")
+
+        elif ch==3:
+            if not l:
+                print("Your list is empty!")
+            else:
+                print("\nYour TO DO LIST:")
+                for i, task in enumerate(l, start=1):
+                    print(f"{i}. {task}")
+
+        elif ch==4:
+            print("Thanks for visiting!", name, "😊")
+            break
+
         else:
-            l.remove(task)
+            print("Invalid choice! please select number between 1 and 4")
 
-    if ch==3:
-        print("List is", l)
+        cont = input("\nDo you want to continue? (Yes/No): ")
+        if cont.lower() != "yes":
+            print("Thanks for visiting!", name, "😊")
+            break
 
-    if ch==4:
-        print("Thanks for visiting!😊")
-        exit()
+    except ValueError:
+        print("Please enter a valid number!")
