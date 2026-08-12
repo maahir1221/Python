@@ -1,0 +1,20 @@
+some of the things here are explained for the project files, as they arent mentioned in any other repos earlier.
+Here I have used condition of while true
+    It is used when the loop goes running till infinity until we code the line "break"
+
+try and except is used.
+    Try and except is used in a case when there is a chance of error on code.
+    The error can be due to the code itself, like division by 0, string and integer conversion.
+    The error can be from user side also like, integer value is asked and user reports a string value
+In all such above cases try and except is used.
+What it sees is that
+    It will try running command,
+    If it executes perfectly, than program will run as required.
+    If there is an error due to any misunderstanding of logic,
+        it will do what we have coded instead of the red line if error that it gives in output tray.
+
+We also have used variable.lower() != "yes:
+    Here variable.lowercase ensures that whatever the user types is finally taken in as lowercase format.
+    != means not equals to
+    what the overall code means:
+        lowercase the input of user, and if the input is not yes than perform the following code or else continue to the loop
