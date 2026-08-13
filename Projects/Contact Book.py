@@ -62,10 +62,14 @@ while True:
             print("Thanks for using Contact Book!")
             break
 
-        cont = input("\nDo you want to continue? (Yes/No): ")
-        if cont.lower() != "yes":
-            print("Thanks for visiting!", name, "😊")
-            break
+        if 1 <= choice <= 6:
+            cont = input("\nDo you want to continue? (Yes/No): ")
+            if cont.lower() != "yes":
+                print("Thanks for visiting!", name, "😊")
+                break
+
+        else:
+            print("Select a valid number between 1 and 6")
 
     except ValueError:
         print("Select a valid number between 1 and 6")
