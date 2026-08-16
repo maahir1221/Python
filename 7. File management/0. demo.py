@@ -5,8 +5,8 @@ f=open("example.txt","r")
 data=f.read()
 print(data)
 
-# file management is used so that we can access and edit text file with help of code
-# NOTE: The file management only works for text files, It can create, edit and open file with txt extension !
+# 7. File management is used so that we can access and edit text file with help of code
+# NOTE: The 7. File management only works for text files, It can create, edit and open file with txt extension !
 
 # Here open is to create or access a file.
 # syntax is open("File name", "Mode")
