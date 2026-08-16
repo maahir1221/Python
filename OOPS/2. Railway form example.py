@@ -1,0 +1,13 @@
+class RailwayForm:
+    fromType="Reservation Form"
+    def getData(self):
+        print("Train No.:", self.trainno)
+        print("Train name:", self.train)
+        print("Passenger Name:", self.name)
+
+rajApplication=RailwayForm()
+rajApplication.name="Raj"
+rajApplication.train="Gujarat Mail"
+rajApplication.trainno=1400990
+print("*****", rajApplication.fromType, "*****")
+rajApplication.getData()
