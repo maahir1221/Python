@@ -12,7 +12,12 @@
 # print(mycar.color)
 
 class sum:
-    def __init__(self, a, b):
-        self.sum = a + b
-        print(self.sum)
-x=sum(19, 11)
+    def __init__(self):
+        self.a = 19
+        self.b = 22
+
+    def show(self):
+        print(self.a + self.b)
+
+y=sum()
+y.show()
