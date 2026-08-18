@@ -7,7 +7,7 @@
 #         self.brand=brand
 #         self.color=color
 #
-# mycar=car("BMW", "Emrald Green")
+# mycar=car("BMW", "Emerald Green")
 # print(mycar.brand)
 # print(mycar.color)
 
