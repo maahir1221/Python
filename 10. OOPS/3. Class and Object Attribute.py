@@ -17,4 +17,3 @@ print("Salary of Employee 2:", e2.salary)
 e1.age=45
 print("Age of Employee 1:", e1.age)
 print("Age of Employee 2:", e2.age)
-
