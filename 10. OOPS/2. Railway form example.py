@@ -1,5 +1,5 @@
 class RailwayForm:
-    fromType="Reservation Form"
+    formType="Reservation Form"
     def getData(self):
         print("Train No.:", self.trainno)
         print("Train name:", self.train)
@@ -9,5 +9,5 @@ rajApplication=RailwayForm()
 rajApplication.name="Raj"
 rajApplication.train="Gujarat Mail"
 rajApplication.trainno=1400990
-print("*****", rajApplication.fromType, "*****")
+print("*****", rajApplication.formType, "*****")
 rajApplication.getData()
