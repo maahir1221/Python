@@ -1,10 +1,10 @@
 class employee:
     company="Google"
-    def __intit__(self, name="Rajesh", salary=300000):
+    def __init__(self, name="Rajesh", salary=300000):
         self.name=name
         self.salary=salary
 
-def getdetails(self):
+    def getdetails(self):
         print("Employee Name:", self.name)
         print("Employee Salary:", self.salary)
         print("Employee name", self.name)
