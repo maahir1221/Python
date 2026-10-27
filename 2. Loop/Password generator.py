@@ -34,3 +34,4 @@ while True:
         print("Generated Password:", generate_password(user_length))
     except ValueError:
         print("Select a valid password length in numbers")
+    exit()
